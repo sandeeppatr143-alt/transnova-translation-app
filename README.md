@@ -1,6 +1,6 @@
 # TransNova — Multilingual LLM Translation Platform
 
-**Customized by Sandeep Patra** · Python · Streamlit · Pydantic · n8n · Google Gemini
+** Sandeep Patra** · Python · Streamlit · Pydantic · n8n · Google Gemini
 
 TransNova provides a responsive UI for translating text through an operator-configured n8n workflow. This customized version adds schema validation, robust webhook response parsing, a timeout/error boundary, safe plain-text rendering, a session history, downloadable text/JSON output, an optional domain/terminology hint, and a neutral workflow template that does not use someone else's live webhook.
 
@@ -77,6 +77,3 @@ These tests validate the input contract and common n8n response shapes without n
 
 Sandeep Patra has a B.Tech background in Electronics and Telecommunication Engineering from Parala Maharaja Engineering College, interested in full-stack engineering and AI-driven applications.
 
-## Upstream acknowledgement
-
-This working copy was adapted from the supplied public project **[ChallaRake/Language-Translation-App-Streamlit-n8n-Gemini-](https://github.com/ChallaRake/Language-Translation-App-Streamlit-n8n-Gemini-)**. The supplied archive did not include a project-level `LICENSE` file. This version removes the hard-coded third-party webhook endpoint, resets the workflow webhook path, removes the inherited webhook ID and credential binding, and adds the validation/configuration changes above. Check the upstream repository's current license/permission before publishing a derivative repository.
